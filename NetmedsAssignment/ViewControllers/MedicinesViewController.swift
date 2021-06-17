@@ -105,12 +105,14 @@ extension MedicinesViewController: UITableViewDataSource {
         if let cell = tableView.dequeueReusableCell(withIdentifier: MedicinesTableViewCell.identifier, for: indexPath) as? MedicinesTableViewCell {
             cell.configure(medicine: _medicinesViewModel.getMedicine(for: indexPath))
             
-            cell.callbackAdd = {
+            cell.callbackAdd = { [weak self] in
+                guard let self = self else { return }
                 self._medicinesViewModel.addButtonTapped(indexPath: indexPath)
                 tableView.reloadRows(at: [indexPath], with: .automatic)
             }
             
-            cell.callbackDosage = { dose in
+            cell.callbackDosage = { [weak self] dose in
+                guard let self = self else { return }
                 self._medicinesViewModel.dosageValueChanged(indexPath: indexPath, dose: dose)
             }
             
