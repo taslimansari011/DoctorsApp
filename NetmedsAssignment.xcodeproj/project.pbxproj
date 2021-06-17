@@ -1,0 +1,1132 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		462860882679B7A300BB05C7 /* MyPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462860872679B7A300BB05C7 /* MyPicker.swift */; };
+		4628608F2679DBA600BB05C7 /* MedicinesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4628608D2679DBA600BB05C7 /* MedicinesTableViewCell.xib */; };
+		4628609D2679E13800BB05C7 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4628609C2679E13800BB05C7 /* Storyboarded.swift */; };
+		462860A22679E1BF00BB05C7 /* PrescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462860A12679E1BF00BB05C7 /* PrescriptionViewController.swift */; };
+		462860A72679E37D00BB05C7 /* PrescriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462860A62679E37D00BB05C7 /* PrescriptionViewModel.swift */; };
+		46626D1D267A38F500E5C4F9 /* UIViewExtenion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46626D1C267A38F500E5C4F9 /* UIViewExtenion.swift */; };
+		46626D25267A390200E5C4F9 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46626D24267A390200E5C4F9 /* UIViewControllerExtension.swift */; };
+		46B4FF8C267B195C00F2B977 /* CDMedicine+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4FF8A267B195C00F2B977 /* CDMedicine+CoreDataClass.swift */; };
+		46B4FF8D267B195C00F2B977 /* CDMedicine+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4FF8B267B195C00F2B977 /* CDMedicine+CoreDataProperties.swift */; };
+		46B4FF96267B239500F2B977 /* MedicineDataStorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4FF95267B239500F2B977 /* MedicineDataStorageProtocol.swift */; };
+		46B4FF9B267B2D0800F2B977 /* MedicinesCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4FF9A267B2D0800F2B977 /* MedicinesCellViewModel.swift */; };
+		46EEE9432678667700E1A448 /* PersistantStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEE9422678667700E1A448 /* PersistantStorage.swift */; };
+		46EEE94C2678683A00E1A448 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEE94B2678683A00E1A448 /* ServiceManager.swift */; };
+		46EEE9512678685C00E1A448 /* MedicineDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEE9502678685C00E1A448 /* MedicineDataManager.swift */; };
+		46EEE9562678687500E1A448 /* MedicinesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEE9552678687500E1A448 /* MedicinesViewModel.swift */; };
+		46EEE95F267869D600E1A448 /* GlobalEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEE95E267869D600E1A448 /* GlobalEnum.swift */; };
+		46EEE96526786B8E00E1A448 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEE96426786B8E00E1A448 /* Constants.swift */; };
+		46EEE96D26786D0C00E1A448 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEE96C26786D0C00E1A448 /* Medicine.swift */; };
+		46EEE9792678707400E1A448 /* MedicineServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEE9782678707400E1A448 /* MedicineServiceManager.swift */; };
+		46EEE97E2678748000E1A448 /* CoreDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEE97D2678748000E1A448 /* CoreDataRepository.swift */; };
+		46EEE983267874E400E1A448 /* MedicineRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEE982267874E400E1A448 /* MedicineRepository.swift */; };
+		46EEE98F2678766200E1A448 /* MedicineCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEE98E2678766200E1A448 /* MedicineCoreDataManager.swift */; };
+		46EEE9A426788F7100E1A448 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEE9A326788F7100E1A448 /* UserDefaultsExtension.swift */; };
+		46EEE9AB2678B22900E1A448 /* MedicinesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEE9AA2678B22900E1A448 /* MedicinesTableViewCell.swift */; };
+		46EEEA0E2678F1D400E1A448 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEEA0D2678F1D400E1A448 /* UITableViewExtension.swift */; };
+		46F8887426785BA2001B0130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8887326785BA2001B0130 /* AppDelegate.swift */; };
+		46F8887626785BA2001B0130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8887526785BA2001B0130 /* SceneDelegate.swift */; };
+		46F8887826785BA2001B0130 /* MedicinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8887726785BA2001B0130 /* MedicinesViewController.swift */; };
+		46F8887B26785BA2001B0130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F8887926785BA2001B0130 /* Main.storyboard */; };
+		46F8887E26785BA2001B0130 /* NetmedsAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 46F8887C26785BA2001B0130 /* NetmedsAssignment.xcdatamodeld */; };
+		46F8888026785BA5001B0130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F8887F26785BA5001B0130 /* Assets.xcassets */; };
+		46F8888326785BA5001B0130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F8888126785BA5001B0130 /* LaunchScreen.storyboard */; };
+		46F8888E26785BA6001B0130 /* NetmedsAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8888D26785BA6001B0130 /* NetmedsAssignmentTests.swift */; };
+		46F8889926785BA6001B0130 /* NetmedsAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8889826785BA6001B0130 /* NetmedsAssignmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46F8888A26785BA6001B0130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F8886826785BA2001B0130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F8886F26785BA2001B0130;
+			remoteInfo = NetmedsAssignment;
+		};
+		46F8889526785BA6001B0130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F8886826785BA2001B0130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F8886F26785BA2001B0130;
+			remoteInfo = NetmedsAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		462860872679B7A300BB05C7 /* MyPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPicker.swift; sourceTree = "<group>"; };
+		4628608D2679DBA600BB05C7 /* MedicinesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MedicinesTableViewCell.xib; sourceTree = "<group>"; };
+		4628609C2679E13800BB05C7 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		462860A12679E1BF00BB05C7 /* PrescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionViewController.swift; sourceTree = "<group>"; };
+		462860A62679E37D00BB05C7 /* PrescriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionViewModel.swift; sourceTree = "<group>"; };
+		46626D1C267A38F500E5C4F9 /* UIViewExtenion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtenion.swift; sourceTree = "<group>"; };
+		46626D24267A390200E5C4F9 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		46B4FF8A267B195C00F2B977 /* CDMedicine+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CDMedicine+CoreDataClass.swift"; sourceTree = "<group>"; };
+		46B4FF8B267B195C00F2B977 /* CDMedicine+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CDMedicine+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		46B4FF95267B239500F2B977 /* MedicineDataStorageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineDataStorageProtocol.swift; sourceTree = "<group>"; };
+		46B4FF9A267B2D0800F2B977 /* MedicinesCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesCellViewModel.swift; sourceTree = "<group>"; };
+		46EEE9422678667700E1A448 /* PersistantStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistantStorage.swift; sourceTree = "<group>"; };
+		46EEE94B2678683A00E1A448 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		46EEE9502678685C00E1A448 /* MedicineDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineDataManager.swift; sourceTree = "<group>"; };
+		46EEE9552678687500E1A448 /* MedicinesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesViewModel.swift; sourceTree = "<group>"; };
+		46EEE95E267869D600E1A448 /* GlobalEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalEnum.swift; sourceTree = "<group>"; };
+		46EEE96426786B8E00E1A448 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		46EEE96C26786D0C00E1A448 /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		46EEE9782678707400E1A448 /* MedicineServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineServiceManager.swift; sourceTree = "<group>"; };
+		46EEE97D2678748000E1A448 /* CoreDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRepository.swift; sourceTree = "<group>"; };
+		46EEE982267874E400E1A448 /* MedicineRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineRepository.swift; sourceTree = "<group>"; };
+		46EEE98E2678766200E1A448 /* MedicineCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineCoreDataManager.swift; sourceTree = "<group>"; };
+		46EEE9A326788F7100E1A448 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
+		46EEE9AA2678B22900E1A448 /* MedicinesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesTableViewCell.swift; sourceTree = "<group>"; };
+		46EEEA0D2678F1D400E1A448 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		46F8887026785BA2001B0130 /* NetmedsAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetmedsAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F8887326785BA2001B0130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46F8887526785BA2001B0130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		46F8887726785BA2001B0130 /* MedicinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesViewController.swift; sourceTree = "<group>"; };
+		46F8887A26785BA2001B0130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46F8887D26785BA2001B0130 /* NetmedsAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetmedsAssignment.xcdatamodel; sourceTree = "<group>"; };
+		46F8887F26785BA5001B0130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46F8888226785BA5001B0130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46F8888426785BA6001B0130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F8888926785BA6001B0130 /* NetmedsAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetmedsAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F8888D26785BA6001B0130 /* NetmedsAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetmedsAssignmentTests.swift; sourceTree = "<group>"; };
+		46F8888F26785BA6001B0130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F8889426785BA6001B0130 /* NetmedsAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetmedsAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F8889826785BA6001B0130 /* NetmedsAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetmedsAssignmentUITests.swift; sourceTree = "<group>"; };
+		46F8889A26785BA6001B0130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46F8886D26785BA2001B0130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F8888626785BA6001B0130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F8889126785BA6001B0130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		462860852679B76A00BB05C7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				46EEE9A326788F7100E1A448 /* UserDefaultsExtension.swift */,
+				46EEEA0D2678F1D400E1A448 /* UITableViewExtension.swift */,
+				46626D1C267A38F500E5C4F9 /* UIViewExtenion.swift */,
+				46626D24267A390200E5C4F9 /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		462860862679B78300BB05C7 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				462860872679B7A300BB05C7 /* MyPicker.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		46626D1B267A38A800E5C4F9 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				46F8887326785BA2001B0130 /* AppDelegate.swift */,
+				46F8887526785BA2001B0130 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		46B4FF94267B238000F2B977 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				46B4FF95267B239500F2B977 /* MedicineDataStorageProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		46DECC97267B170B00557FB7 /* CoreDataRepository */ = {
+			isa = PBXGroup;
+			children = (
+				46EEE97D2678748000E1A448 /* CoreDataRepository.swift */,
+				46EEE982267874E400E1A448 /* MedicineRepository.swift */,
+			);
+			path = CoreDataRepository;
+			sourceTree = "<group>";
+		};
+		46DECC98267B173100557FB7 /* CoreDataBase */ = {
+			isa = PBXGroup;
+			children = (
+				46F8887C26785BA2001B0130 /* NetmedsAssignment.xcdatamodeld */,
+				46EEE9422678667700E1A448 /* PersistantStorage.swift */,
+			);
+			path = CoreDataBase;
+			sourceTree = "<group>";
+		};
+		46EEE9412678665D00E1A448 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				46DECC98267B173100557FB7 /* CoreDataBase */,
+				46DECC97267B170B00557FB7 /* CoreDataRepository */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		46EEE94A2678680900E1A448 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				46B4FF8A267B195C00F2B977 /* CDMedicine+CoreDataClass.swift */,
+				46B4FF8B267B195C00F2B977 /* CDMedicine+CoreDataProperties.swift */,
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		46EEE95D267869C700E1A448 /* GlobalEnums */ = {
+			isa = PBXGroup;
+			children = (
+				46EEE95E267869D600E1A448 /* GlobalEnum.swift */,
+			);
+			path = GlobalEnums;
+			sourceTree = "<group>";
+		};
+		46EEE96326786B8400E1A448 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				46EEE9772678705200E1A448 /* Constants */,
+				46EEE95D267869C700E1A448 /* GlobalEnums */,
+				462860852679B76A00BB05C7 /* Extensions */,
+				4628609C2679E13800BB05C7 /* Storyboarded.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		46EEE9772678705200E1A448 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				46EEE96426786B8E00E1A448 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		46EEE9A82678B1F300E1A448 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				46F8887726785BA2001B0130 /* MedicinesViewController.swift */,
+				462860A12679E1BF00BB05C7 /* PrescriptionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		46EEE9A92678B20100E1A448 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				46EEE9AA2678B22900E1A448 /* MedicinesTableViewCell.swift */,
+				4628608D2679DBA600BB05C7 /* MedicinesTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		46F8886726785BA2001B0130 = {
+			isa = PBXGroup;
+			children = (
+				46F8887226785BA2001B0130 /* NetmedsAssignment */,
+				46F8888C26785BA6001B0130 /* NetmedsAssignmentTests */,
+				46F8889726785BA6001B0130 /* NetmedsAssignmentUITests */,
+				46F8887126785BA2001B0130 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46F8887126785BA2001B0130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46F8887026785BA2001B0130 /* NetmedsAssignment.app */,
+				46F8888926785BA6001B0130 /* NetmedsAssignmentTests.xctest */,
+				46F8889426785BA6001B0130 /* NetmedsAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46F8887226785BA2001B0130 /* NetmedsAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				46B4FF94267B238000F2B977 /* Protocols */,
+				46EEE96326786B8400E1A448 /* Utilities */,
+				46EEE9412678665D00E1A448 /* CoreDataManager */,
+				46F888AD26785CE9001B0130 /* Services */,
+				46F888AC26785CE1001B0130 /* DataManagers */,
+				46F888B026785D94001B0130 /* Storyboards */,
+				46626D1B267A38A800E5C4F9 /* Delegate */,
+				46F888AB26785C60001B0130 /* ViewModels */,
+				46EEE9A82678B1F300E1A448 /* ViewControllers */,
+				46F888AA26785C5D001B0130 /* Views */,
+				46F888A926785C42001B0130 /* Models */,
+				46F888AF26785D07001B0130 /* Resources */,
+			);
+			path = NetmedsAssignment;
+			sourceTree = "<group>";
+		};
+		46F8888C26785BA6001B0130 /* NetmedsAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				46F8888D26785BA6001B0130 /* NetmedsAssignmentTests.swift */,
+				46F8888F26785BA6001B0130 /* Info.plist */,
+			);
+			path = NetmedsAssignmentTests;
+			sourceTree = "<group>";
+		};
+		46F8889726785BA6001B0130 /* NetmedsAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46F8889826785BA6001B0130 /* NetmedsAssignmentUITests.swift */,
+				46F8889A26785BA6001B0130 /* Info.plist */,
+			);
+			path = NetmedsAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		46F888A926785C42001B0130 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46EEE94A2678680900E1A448 /* CoreDataModel */,
+				46EEE96C26786D0C00E1A448 /* Medicine.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		46F888AA26785C5D001B0130 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				462860862679B78300BB05C7 /* CustomView */,
+				46EEE9A92678B20100E1A448 /* TableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46F888AB26785C60001B0130 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				46EEE9552678687500E1A448 /* MedicinesViewModel.swift */,
+				462860A62679E37D00BB05C7 /* PrescriptionViewModel.swift */,
+				46B4FF9A267B2D0800F2B977 /* MedicinesCellViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		46F888AC26785CE1001B0130 /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+				46EEE9502678685C00E1A448 /* MedicineDataManager.swift */,
+				46EEE98E2678766200E1A448 /* MedicineCoreDataManager.swift */,
+			);
+			path = DataManagers;
+			sourceTree = "<group>";
+		};
+		46F888AD26785CE9001B0130 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				46EEE94B2678683A00E1A448 /* ServiceManager.swift */,
+				46EEE9782678707400E1A448 /* MedicineServiceManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		46F888AF26785D07001B0130 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				46F8887F26785BA5001B0130 /* Assets.xcassets */,
+				46F8888426785BA6001B0130 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		46F888B026785D94001B0130 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				46F8887926785BA2001B0130 /* Main.storyboard */,
+				46F8888126785BA5001B0130 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46F8886F26785BA2001B0130 /* NetmedsAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F8889D26785BA6001B0130 /* Build configuration list for PBXNativeTarget "NetmedsAssignment" */;
+			buildPhases = (
+				46F8886C26785BA2001B0130 /* Sources */,
+				46F8886D26785BA2001B0130 /* Frameworks */,
+				46F8886E26785BA2001B0130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetmedsAssignment;
+			productName = NetmedsAssignment;
+			productReference = 46F8887026785BA2001B0130 /* NetmedsAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46F8888826785BA6001B0130 /* NetmedsAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F888A026785BA6001B0130 /* Build configuration list for PBXNativeTarget "NetmedsAssignmentTests" */;
+			buildPhases = (
+				46F8888526785BA6001B0130 /* Sources */,
+				46F8888626785BA6001B0130 /* Frameworks */,
+				46F8888726785BA6001B0130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F8888B26785BA6001B0130 /* PBXTargetDependency */,
+			);
+			name = NetmedsAssignmentTests;
+			productName = NetmedsAssignmentTests;
+			productReference = 46F8888926785BA6001B0130 /* NetmedsAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46F8889326785BA6001B0130 /* NetmedsAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F888A326785BA6001B0130 /* Build configuration list for PBXNativeTarget "NetmedsAssignmentUITests" */;
+			buildPhases = (
+				46F8889026785BA6001B0130 /* Sources */,
+				46F8889126785BA6001B0130 /* Frameworks */,
+				46F8889226785BA6001B0130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F8889626785BA6001B0130 /* PBXTargetDependency */,
+			);
+			name = NetmedsAssignmentUITests;
+			productName = NetmedsAssignmentUITests;
+			productReference = 46F8889426785BA6001B0130 /* NetmedsAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F8886826785BA2001B0130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					46F8886F26785BA2001B0130 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					46F8888826785BA6001B0130 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 46F8886F26785BA2001B0130;
+					};
+					46F8889326785BA6001B0130 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 46F8886F26785BA2001B0130;
+					};
+				};
+			};
+			buildConfigurationList = 46F8886B26785BA2001B0130 /* Build configuration list for PBXProject "NetmedsAssignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46F8886726785BA2001B0130;
+			productRefGroup = 46F8887126785BA2001B0130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46F8886F26785BA2001B0130 /* NetmedsAssignment */,
+				46F8888826785BA6001B0130 /* NetmedsAssignmentTests */,
+				46F8889326785BA6001B0130 /* NetmedsAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46F8886E26785BA2001B0130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F8888326785BA5001B0130 /* LaunchScreen.storyboard in Resources */,
+				46F8888026785BA5001B0130 /* Assets.xcassets in Resources */,
+				46F8887B26785BA2001B0130 /* Main.storyboard in Resources */,
+				4628608F2679DBA600BB05C7 /* MedicinesTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F8888726785BA6001B0130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F8889226785BA6001B0130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46F8886C26785BA2001B0130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EEE9562678687500E1A448 /* MedicinesViewModel.swift in Sources */,
+				46EEE983267874E400E1A448 /* MedicineRepository.swift in Sources */,
+				46EEE95F267869D600E1A448 /* GlobalEnum.swift in Sources */,
+				46EEE97E2678748000E1A448 /* CoreDataRepository.swift in Sources */,
+				462860A72679E37D00BB05C7 /* PrescriptionViewModel.swift in Sources */,
+				46F8887826785BA2001B0130 /* MedicinesViewController.swift in Sources */,
+				46F8887426785BA2001B0130 /* AppDelegate.swift in Sources */,
+				46EEE96D26786D0C00E1A448 /* Medicine.swift in Sources */,
+				4628609D2679E13800BB05C7 /* Storyboarded.swift in Sources */,
+				462860A22679E1BF00BB05C7 /* PrescriptionViewController.swift in Sources */,
+				46626D25267A390200E5C4F9 /* UIViewControllerExtension.swift in Sources */,
+				46EEE9512678685C00E1A448 /* MedicineDataManager.swift in Sources */,
+				46EEE98F2678766200E1A448 /* MedicineCoreDataManager.swift in Sources */,
+				46EEE9A426788F7100E1A448 /* UserDefaultsExtension.swift in Sources */,
+				46EEE96526786B8E00E1A448 /* Constants.swift in Sources */,
+				46EEEA0E2678F1D400E1A448 /* UITableViewExtension.swift in Sources */,
+				46F8887626785BA2001B0130 /* SceneDelegate.swift in Sources */,
+				46B4FF96267B239500F2B977 /* MedicineDataStorageProtocol.swift in Sources */,
+				46F8887E26785BA2001B0130 /* NetmedsAssignment.xcdatamodeld in Sources */,
+				46EEE9792678707400E1A448 /* MedicineServiceManager.swift in Sources */,
+				46B4FF9B267B2D0800F2B977 /* MedicinesCellViewModel.swift in Sources */,
+				462860882679B7A300BB05C7 /* MyPicker.swift in Sources */,
+				46EEE94C2678683A00E1A448 /* ServiceManager.swift in Sources */,
+				46B4FF8D267B195C00F2B977 /* CDMedicine+CoreDataProperties.swift in Sources */,
+				46B4FF8C267B195C00F2B977 /* CDMedicine+CoreDataClass.swift in Sources */,
+				46EEE9AB2678B22900E1A448 /* MedicinesTableViewCell.swift in Sources */,
+				46626D1D267A38F500E5C4F9 /* UIViewExtenion.swift in Sources */,
+				46EEE9432678667700E1A448 /* PersistantStorage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F8888526785BA6001B0130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F8888E26785BA6001B0130 /* NetmedsAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F8889026785BA6001B0130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F8889926785BA6001B0130 /* NetmedsAssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46F8888B26785BA6001B0130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F8886F26785BA2001B0130 /* NetmedsAssignment */;
+			targetProxy = 46F8888A26785BA6001B0130 /* PBXContainerItemProxy */;
+		};
+		46F8889626785BA6001B0130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F8886F26785BA2001B0130 /* NetmedsAssignment */;
+			targetProxy = 46F8889526785BA6001B0130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46F8887926785BA2001B0130 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F8887A26785BA2001B0130 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46F8888126785BA5001B0130 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F8888226785BA5001B0130 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46B4FF9F267B358600F2B977 /* Debug-Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-Dev";
+		};
+		46B4FFA0267B358600F2B977 /* Debug-Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_NAME = "Doctors App Dev";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BundleId = com.app.netmedsassigment.dev;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5776V4BJQC;
+				INFOPLIST_FILE = NetmedsAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.netmedsassigment.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG DEV";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-Dev";
+		};
+		46B4FFA1267B358600F2B977 /* Debug-Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5776V4BJQC;
+				INFOPLIST_FILE = NetmedsAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TA.NetmedsAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetmedsAssignment.app/NetmedsAssignment";
+			};
+			name = "Debug-Dev";
+		};
+		46B4FFA2267B358600F2B977 /* Debug-Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5776V4BJQC;
+				INFOPLIST_FILE = NetmedsAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TA.NetmedsAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetmedsAssignment;
+			};
+			name = "Debug-Dev";
+		};
+		46B4FFA3267B359100F2B977 /* Release-Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-Dev";
+		};
+		46B4FFA4267B359100F2B977 /* Release-Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_NAME = "Doctors App Dev";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BundleId = com.app.netmedsassigment.dev;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5776V4BJQC;
+				INFOPLIST_FILE = NetmedsAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.netmedsassigment.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "RELEASE DEV";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release-Dev";
+		};
+		46B4FFA5267B359100F2B977 /* Release-Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5776V4BJQC;
+				INFOPLIST_FILE = NetmedsAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TA.NetmedsAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetmedsAssignment.app/NetmedsAssignment";
+			};
+			name = "Release-Dev";
+		};
+		46B4FFA6267B359100F2B977 /* Release-Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5776V4BJQC;
+				INFOPLIST_FILE = NetmedsAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TA.NetmedsAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetmedsAssignment;
+			};
+			name = "Release-Dev";
+		};
+		46F8889B26785BA6001B0130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46F8889C26785BA6001B0130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46F8889E26785BA6001B0130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_NAME = "Doctors App";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BundleId = com.app.netmedsassigment;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5776V4BJQC;
+				INFOPLIST_FILE = NetmedsAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.netmedsassigment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46F8889F26785BA6001B0130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_NAME = "Doctors App";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BundleId = com.app.netmedsassigment;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5776V4BJQC;
+				INFOPLIST_FILE = NetmedsAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.netmedsassigment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = RELEASE;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46F888A126785BA6001B0130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5776V4BJQC;
+				INFOPLIST_FILE = NetmedsAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TA.NetmedsAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetmedsAssignment.app/NetmedsAssignment";
+			};
+			name = Debug;
+		};
+		46F888A226785BA6001B0130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5776V4BJQC;
+				INFOPLIST_FILE = NetmedsAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TA.NetmedsAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetmedsAssignment.app/NetmedsAssignment";
+			};
+			name = Release;
+		};
+		46F888A426785BA6001B0130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5776V4BJQC;
+				INFOPLIST_FILE = NetmedsAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TA.NetmedsAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetmedsAssignment;
+			};
+			name = Debug;
+		};
+		46F888A526785BA6001B0130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5776V4BJQC;
+				INFOPLIST_FILE = NetmedsAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TA.NetmedsAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetmedsAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46F8886B26785BA2001B0130 /* Build configuration list for PBXProject "NetmedsAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F8889B26785BA6001B0130 /* Debug */,
+				46B4FF9F267B358600F2B977 /* Debug-Dev */,
+				46F8889C26785BA6001B0130 /* Release */,
+				46B4FFA3267B359100F2B977 /* Release-Dev */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F8889D26785BA6001B0130 /* Build configuration list for PBXNativeTarget "NetmedsAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F8889E26785BA6001B0130 /* Debug */,
+				46B4FFA0267B358600F2B977 /* Debug-Dev */,
+				46F8889F26785BA6001B0130 /* Release */,
+				46B4FFA4267B359100F2B977 /* Release-Dev */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F888A026785BA6001B0130 /* Build configuration list for PBXNativeTarget "NetmedsAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F888A126785BA6001B0130 /* Debug */,
+				46B4FFA1267B358600F2B977 /* Debug-Dev */,
+				46F888A226785BA6001B0130 /* Release */,
+				46B4FFA5267B359100F2B977 /* Release-Dev */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F888A326785BA6001B0130 /* Build configuration list for PBXNativeTarget "NetmedsAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F888A426785BA6001B0130 /* Debug */,
+				46B4FFA2267B358600F2B977 /* Debug-Dev */,
+				46F888A526785BA6001B0130 /* Release */,
+				46B4FFA6267B359100F2B977 /* Release-Dev */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		46F8887C26785BA2001B0130 /* NetmedsAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				46F8887D26785BA2001B0130 /* NetmedsAssignment.xcdatamodel */,
+			);
+			currentVersion = 46F8887D26785BA2001B0130 /* NetmedsAssignment.xcdatamodel */;
+			path = NetmedsAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 46F8886826785BA2001B0130 /* Project object */;
+}
